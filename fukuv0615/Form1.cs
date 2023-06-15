@@ -19,7 +19,7 @@ namespace fukuv0615
         private void button1_Click(object sender, EventArgs e)
         {
             count++;
-            MessageBox.Show(count.ToString()+ "‰ñ–Ú‚Ì’§í");
+            MessageBox.Show(count.ToString() + "‰ñ–Ú‚Ì’§í");
             int guess = int.Parse(textBox1.Text);
             if (ans == guess)
             {
